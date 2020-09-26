@@ -1,0 +1,431 @@
+@import url(https://fonts.googleapis.com/icon?family=Material+Icons);
+/*Codigo generico */
+.clear{
+    clear:both;
+}
+
+
+/*Fim do codigo generico */
+
+/*Codigo para pagina de listar livros */
+#searchparameters{
+    height:100vh;
+    overflow-y:hidden;
+}
+.fillscreen{
+    height:100vh;
+    overflow-y:scroll;
+}
+#booksdiv{
+    
+}
+.vertical-tab a{
+  color:white;
+  font-size:1.5vw;
+  font-family: Verdana;
+  
+}
+
+
+.searchtab{
+    margin:6vh;
+}
+.vertical-tab{
+   height:4vw;
+   width:100%;
+   margin-top:0.020vw;
+   margin-bottom:1vw;
+   box-sizing: border-box;
+   
+}
+
+
+
+/*Fim do codigo para pagina de listar livross*/
+/*Codigo para pagina de edição de livros */
+
+.booktext{
+   height:35vh; 
+   margin:5vh;
+   margin-top:0px;
+}
+.textbtn{
+    width:2.55vw;
+    height:2.55vw;
+   
+}
+#bookcover img{
+    margin-left:75px;
+}
+
+.bookex{
+    height:65%;
+    width:100%;
+    word-wrap: break-word;
+    font-size:1.11vw;
+}
+#texttextarea{
+    height:70vh;
+}
+#textscontainer{
+    height:100%;
+}
+.textbtn{
+    text-align: center;
+   
+}
+.bookoptbtn{
+    margin-left:6px;
+    margin-right:6px;
+}
+
+#cbooknav{
+    padding:5px;
+    font-style:'Comic sans MS';
+}
+
+/*Fim do codigo da pagina de edição de livros */
+/*Codigo para pagina home*/
+#header{
+   text-align:center;
+}
+#homedynamiccontent{
+    border-top:groove 2px #d5ffd3; 
+    border-bottom:groove 2px #d5ffd3; 
+    height:170px;
+}
+#loginbutton{
+    text-align:center;
+    padding-top:45px;
+}
+.userbtn{
+    margin-top:16px;
+    margin-left:3px;
+}
+
+.homepanel{
+   box-sizing: border-box;
+  
+   
+}
+
+.homebooks{
+    background-color: rgba(0,0,0,0.4);
+    margin:5vh;
+    padding:2vh;
+    padding-top:0vh;
+}
+.citag{
+    height:180px;
+    width:200px;
+}
+#news{
+    width:75%;
+    margin:auto;
+    margin-top:1vw;
+}
+.booksheader{
+    margin-left:3vw;
+    font-size:2vw;
+}
+.recommendedbook{
+    padding:0.31vw;
+}
+
+
+.news{
+    margin:1vw;
+    width:40%;
+    float:left;
+    box-sizing:border-box;
+}
+
+.homeslider{
+   height:35vh;
+    
+}
+
+@media only screen and(max-width: 1024px){
+    #news p{
+        font-size:2vw;
+    }
+    
+}
+
+/*Fim do codigo para pagina hone*/
+/*Codigo para pagina de ler livros*/
+    #saves{
+        overflow-y: scroll;
+    }
+    #rebooknavbar{
+        margin:0px;
+        overflow:auto;
+        box-sizing: border-box;
+        height:40px;
+        
+    }
+    #historic{
+        height:100vh;
+    }
+    #bookcontainer{
+        height: 100vh;
+        padding:40px;
+        overflow-y:scroll;
+       
+        
+    }
+    .historic-entry{
+        padding:1vh;
+    }
+    
+    #bookchoices{
+       margin-top:7vh;
+    }
+    .choicebox{
+        
+    }
+    .choice{
+        font-style:'Arial';
+        font-size:2.2vw;
+    }
+    
+/*Fim do codigo para pagina de ler livros*/
+
+/*Codigo para landing page */ 
+#welcome{
+    text-align:center;
+    margin:auto;
+}
+
+#welcome{
+    margin:auto;
+    margin-top:25%;
+    width:70%;
+    
+}
+
+
+
+#landingpage{
+    
+    background-image: url('../../lib/images/tempbackground.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+
+
+#loginbox form{
+    width:100%;
+    margin:0px;
+}
+.lpp{
+    text-align: justify;
+    padding:1vh;
+    font-size:1.2vw;
+}
+
+#welcomemessage{
+    font-size:2vw;
+    margin-bottom:2vw;
+}
+
+.lpinputbtn{
+    text-align:center;
+}
+.lpinput{
+    margin: 1.3vh 0vh 1.3vh 3vh;
+}
+#loginbox{
+    padding:5vh;
+    padding-right:0vh;
+    padding-bottom:1vh;
+    width:65%;
+    margin:auto;
+    margin-top:25%;
+    background-color:white;
+}
+@media  only screen and (max-width: 995px){
+    #loginbox{
+        margin-top:3vw;
+    }
+    #welcomemessage{
+        font-size: 4vw;
+    }
+    #welcome{
+        margin-top:2vw;
+    }
+    .lpp{
+        font-size:2vw;
+    }
+}
+
+@media  only screen and (min-width: 995px){
+    #landingpage{
+       height:100vh;
+    }
+} 
+
+
+
+/*Fim do codigo para landing page*/
+
+/*Codigo para pagina do usuário*/
+#profilepage{
+    min-height:100vh;
+    overflow-y:hidden;
+}
+#booklist{
+     min-height:100vh;
+}
+#releasedbooks{
+   min-height:100vh;
+}
+.lasttext{
+    font-size:1vw;
+}
+.pagecount{
+    font-size:1vw
+}
+
+#myinfobox{
+    padding:10px;
+}
+#bookinfobox{
+    padding:10px;
+}
+
+.booktitle{
+    font-size:2vw;
+}
+
+#booksimreading{
+    min-height:100vh;
+}
+#myinfo{
+    min-height:100vh;
+    overflow: hidden;
+}
+#rebooklist{
+    min-height:100vh;
+    overflow-y: scroll;
+}
+#bookinfo{
+    min-height:100vh;
+    overflow-y:hidden;
+    overflow-x:hidden;
+    
+}
+.profilebox{
+    width:85%;
+    min-height:80vh;
+    margin:auto;
+    margin-top:5vh;
+}
+#bookpanelbox{
+    width:85%;
+    margin:auto;
+    min-height: 80vh;
+    margin-top:5vh;
+    margin-bottom:15px;
+    padding:2vh;
+    padding-top:0;
+}
+
+.pagelink{
+    margin-right:18px; 
+}
+
+#unreleasedsearch{
+    width:80%;
+    margin:auto;
+}
+
+.bookinfoimg{
+    width:80%;
+    
+    height:80%;
+}
+
+
+
+.bookinfoimgdiv{
+    text-align:center;
+}
+
+.imgcover{
+    width:30%;
+    float:left;
+    margin-top:15px;
+}
+.bookinfo{
+    width:70%;
+    float:right;
+}
+.bookpanel{
+    margin-top:9px;
+    box-sizing: border-box;
+    height:160px;
+    border: solid 3px white;
+    
+}
+.bookname{
+    margin:1%;
+    text-align:left;
+    font-size:1.5vw;
+    margin-bottom:2px;
+}
+
+.bookgenre{
+    font-size:1vw;
+    margin-top:1px;
+}
+
+
+
+#booklist{
+    min-height:100vh;
+    overflow-y:scroll;
+    overflow-x:hidden;
+}
+
+#unbooklist{
+    min-height:100vh;
+    overflow-x:hidden;
+    overflow-y:scroll;
+}
+
+#bookpanel{
+     min-height:100vh;
+    overflow-y:hidden;
+    overflow-x:hidden;
+}
+
+@media only screen and (max-width: 1280px){
+    .bookname{
+        font-size:2.7vw;
+    }
+    .bookauthor{
+        font-size:2vw;
+    }
+    .bookgenre{
+        font-size:2vw;
+    }
+}
+
+@media only screen and (min-width:1680px){
+    .bookname{
+        font-size:1.3vw;
+    }
+    .bookgenre{
+        font-size:0.8vw;
+    }
+    .bookauthor{
+        font-size:0.8vw;
+    }
+}
+
+
+/*Fim do codigo da pagina do usuário*/
