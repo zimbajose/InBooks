@@ -25,7 +25,8 @@ SET time_zone = "+00:00";
 --
 -- Estrutura da tabela `ibook`
 --
-
+CREATE DATABASE ibooks;
+USE ibooks;
 CREATE TABLE `ibook` (
   `id` int(11) NOT NULL,
   `user_id` int(11) NOT NULL,
