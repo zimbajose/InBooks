@@ -31,13 +31,13 @@ O software está em um estado incompleto e o editor de texto quebrou por conta d
 ## Prints da tela
 
 ### Tela inicial
- <img width="80%" src = "https://imgur.com/gxMQJqI">
+ <img width="80%" src = "telainicial.png">
 
 ### Tela de criação de livros
-  <img width="80%"  src = "https://imgur.com/Ii9dNJR">
+  <img width="80%"  src = "telacriacao.png">
 
 ### Tela de pesquisa de livros
-  <img width="80%" src = "https://imgur.com/esyidny">
+  <img width="80%" src = "telapesquisa.png">
 
 ## Instalação
 O Inbooks necessita somente de um servidor para manter os arquivos php, e o banco de dados incluido no arquivo banco.sql para poder rodar.
