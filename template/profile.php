@@ -4,8 +4,6 @@ if(!isset($_SESSION['userid'])){
 }
     $user = new User($_SESSION['userid']);
     $id = $_SESSION['userid'];
-    //$key = "zenzensense";
-    //$id = base64_encode(MCRYPT_ENCRYPT(MCRYPT_RIJNDAEL_256, md5($key),$id,MCRYPT_MODE_CBC,md5(md5($key))));
     
 ?>
 <script src="template/js/profile.js"></script>

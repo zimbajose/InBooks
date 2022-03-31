@@ -71,13 +71,5 @@ if ($r->idusertobook) {
             <a class="btn waves-light waves-effect green btn right-align"onclick="createSave(true)">Criar dados salvos</a>
         </div>
     </div>
-    <!-- A secret to everyone <a class="waves-effect waves-light btn"onClick="openData()">Dados salvos</a>
-        <a class ="waves-light waves-effect btn" href="index.php">Voltar</a> 
-        <div class="row" id="rebooknavbar">
-        
-    </div>
-    <div class="clear"></div>
-    <div id ="bookcontainer" class="clear row"></div>
     
-    -->
 </div>

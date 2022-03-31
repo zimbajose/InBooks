@@ -97,7 +97,6 @@ function save() {
     var textid = $('#textedittextid').val();
     var bookname = $('#bookname').val();
     var bookgenre = $('#genre').val();
-    console.log('https://www.youtube.com/watch?v=opADNvgeZYY&list=PLy0GST6NhqfAJ0lUofxZ0FBGuxwj5rCYi&index=185');
     $.post('controller.php', {"page": "createbook", "method": "save", "bookname": bookname, "genre": bookgenre, "textname": textname, "bookid": bookid, "textid": textid, "texttext": texttext}, function () {
         
     });
